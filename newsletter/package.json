@@ -1,0 +1,18 @@
+{
+  "name": "mail_app",
+  "version": "1.0.0",
+  "description": "email collecction app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nandan",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.44",
+    "body-parser": "^1.19.0",
+    "expree": "^0.0.7",
+    "request": "^2.88.2"
+  }
+}
